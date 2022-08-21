@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Goal Setter app for learning MERN Stack",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js"
