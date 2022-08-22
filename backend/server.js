@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from "dotenv/config";
 import colors from "colors";
 import connectDB from "./config/db.js";
-import errorHandler from "../middleware/errorMiddleware.js";
+import errorHandler from "./middleware/errorMiddleware.js";
 import goalRoutes from "./routes/goalRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
 
