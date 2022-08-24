@@ -1,0 +1,49 @@
+MERN-Goal-Tutorial/
+├─ .git/
+├─ backend/
+│  ├─ config/
+│  │  ├─ db.js
+│  ├─ controllers/
+│  │  ├─ goalController.js
+│  │  ├─ userController.js
+│  ├─ models/
+│  │  ├─ goalModel
+│  │  ├─ userModel
+│  ├─ routes/
+│  │  ├─ goalRoutes.js
+│  │  ├─ userRoutes.js
+│  ├─ server.js
+│  ├─ middleware/
+│  │  ├─ authMiddleware.js
+│  │  ├─ errorMiddleware.js
+├─ frontend/
+│  ├─ node_modules/
+│  ├─ public/
+│  ├─ src/
+│  │  ├─ app/
+│  │  │  ├─ store.js
+│  │  ├─ components/
+│  │  │  ├─ Header.jsx
+│  │  ├─ features/
+│  │  │  ├─ auth/
+│  │  │  │  ├─ authService.js
+│  │  │  │  ├─ authSlice.js
+│  │  ├─ pages/
+│  │  │  ├─ Dashboard.jsx
+│  │  │  ├─ Login.jsx
+│  │  │  ├─ Register.jsx
+│  │  ├─ App.js
+│  │  ├─ index.css
+│  │  ├─ index.js
+│  │  ├─ reportWebVitals.js
+│  │  ├─ setupTests.js
+│  │  ├─ App.test.js
+│  ├─ .gitignore
+│  ├─ package.json
+│  ├─ package-lock.json
+│  ├─ README.me
+├─ node_modules/
+├─ .env
+├─ .gitignore
+├─ package.json
+├─ package-lock.json
