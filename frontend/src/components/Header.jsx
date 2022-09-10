@@ -10,11 +10,19 @@ function Header() {
     const navigate = useNavigate()
     const dispatch = useDispatch()
 
+    // to get the current user 
     const {user} = useSelector((state) => state.auth)
 
+    // logout user from application
     const onLogout = () => {
+
+        // action to logout user
         dispatch(logout())
+
+        // action to reset value for all
         dispatch(reset())
+
+        // navigate to home dashboard
         navigate('/')
     }
 
