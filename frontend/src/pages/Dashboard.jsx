@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import { useNavigate } from "react-router-dom"
 import { useSelector, useDispatch} from "react-redux"
-import GoalForm from '../components/GoalForm'
-import GoalItem from '../components/GoalItem'
-import Spinner from "../components/Spinner"
-import {getGoals, reset} from "../features/goals/goalSlice"
+import GoalForm from '../components/GoalForm.jsx'
+import GoalItem from '../components/GoalItem.jsx'
+import Spinner from "../components/Spinner.jsx"
+import {getGoals, reset} from "../features/goals/goalSlice.js"
 
 function Dashboard() {
 

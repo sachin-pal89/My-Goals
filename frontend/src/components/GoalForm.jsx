@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {useDispatch } from "react-redux"
-import {createGoal} from "../features/goals/goalSlice"
+import {createGoal} from "../features/goals/goalSlice.js"
 
 function GoalForm() {
 
