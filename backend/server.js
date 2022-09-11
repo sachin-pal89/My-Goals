@@ -6,6 +6,11 @@ import connectDB from "./config/db.js";
 import errorHandler from "./middleware/errorMiddleware.js";
 import goalRoutes from "./routes/goalRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const port = process.env.PORT || 5000;
 
